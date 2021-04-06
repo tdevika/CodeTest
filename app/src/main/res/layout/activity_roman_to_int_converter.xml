@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    tools:context=".LookAndTypeActivity">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:text="Input a Roman numeral"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/romanValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:textAllCaps="true"
+        android:hint="Enter Roman Numeral"
+        android:maxLines="1"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/integerValueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:hint="Converted Integer value"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
